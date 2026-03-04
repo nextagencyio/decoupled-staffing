@@ -1,0 +1,129 @@
+{
+  "data": {
+    "nodeTeamMembers": {
+      "__typename": "NodeTeamMemberConnection",
+      "nodes": [
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-karen",
+          "title": "Karen Mitchell",
+          "path": "/team/karen-mitchell",
+          "body": {
+            "processed": "<p>Karen founded Vanguard Staffing Solutions with the belief that great recruiting starts with relationships. With 20 years of staffing industry experience, she has built a firm known for quality placements and exceptional client service.</p>",
+            "summary": "Karen founded Vanguard Staffing Solutions with the belief that great recruiting starts with relationships. With 20 years of staffing industry experience, she has built a firm known for quality placeme"
+          },
+          "position": "CEO & Founder",
+          "email": "karen@vanguardstaffing.com",
+          "phone": "(555) 789-0123",
+          "specialtyArea": "Executive Search",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+            "alt": "Karen Mitchell, CEO",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-ryan",
+          "title": "Ryan O'Connor",
+          "path": "/team/ryan-oconnor",
+          "body": {
+            "processed": "<p>Ryan leads our technology recruiting division. A former software developer himself, he brings technical credibility to every search and understands the nuances of evaluating engineering talent. He has placed over 500 technology professionals in his career.</p>",
+            "summary": "Ryan leads our technology recruiting division. A former software developer himself, he brings technical credibility to every search and understands the nuances of evaluating engineering talent. He has"
+          },
+          "position": "VP, Technology Recruiting",
+          "email": "ryan@vanguardstaffing.com",
+          "phone": "(555) 789-0124",
+          "specialtyArea": "Technology & Engineering",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+            "alt": "Ryan O'Connor, VP Technology",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-diana",
+          "title": "Diana Flores",
+          "path": "/team/diana-flores",
+          "body": {
+            "processed": "<p>Diana manages our healthcare staffing practice, specializing in clinical and administrative placements. Her deep network in the healthcare community and understanding of credentialing requirements make her an invaluable partner for healthcare organizations.</p>",
+            "summary": "Diana manages our healthcare staffing practice, specializing in clinical and administrative placements. Her deep network in the healthcare community and understanding of credentialing requirements mak"
+          },
+          "position": "Director, Healthcare Staffing",
+          "email": "diana@vanguardstaffing.com",
+          "phone": "(555) 789-0125",
+          "specialtyArea": "Healthcare & Life Sciences",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+            "alt": "Diana Flores, Director",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

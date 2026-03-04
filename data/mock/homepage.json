@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Vanguard Staffing Solutions Homepage",
+          "path": "/homepage",
+          "heroTitle": "The Right Talent, The Right Fit",
+          "heroSubtitle": "Vanguard Staffing Solutions",
+          "heroDescription": {
+            "processed": "<p>We connect exceptional professionals with leading companies. Whether you are looking to hire top talent or advance your career, Vanguard delivers results through personalized recruiting and deep industry expertise.</p>",
+            "summary": "We connect exceptional professionals with leading companies. Whether you are looking to hire top talent or advance your career, Vanguard delivers results through personalized recruiting and deep indus"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-1",
+              "title": "",
+              "number": "12,000+",
+              "label": "Placements Made"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-2",
+              "title": "",
+              "number": "94%",
+              "label": "Retention Rate"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-3",
+              "title": "",
+              "number": "500+",
+              "label": "Client Companies"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-4",
+              "title": "",
+              "number": "48hrs",
+              "label": "Average Time to Shortlist"
+            }
+          ],
+          "featuredItemsTitle": "Featured Opportunities",
+          "ctaTitle": "Ready to Find Your Next Great Hire?",
+          "ctaDescription": {
+            "processed": "<p>Tell us about your staffing needs and our recruiters will deliver qualified candidates within 48 hours. No upfront fees - you only pay when we make a successful placement.</p>",
+            "summary": "Tell us about your staffing needs and our recruiters will deliver qualified candidates within 48 hours. No upfront fees - you only pay when we make a successful placement."
+          },
+          "ctaPrimary": "Hire Talent",
+          "ctaSecondary": "Find a Job"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "data": {
+    "nodeJobOpenings": {
+      "__typename": "NodeJobOpeningConnection",
+      "nodes": [
+        {
+          "__typename": "NodeJobOpening",
+          "id": "job-software-engineer",
+          "title": "Senior Software Engineer",
+          "path": "/jobs/senior-software-engineer",
+          "body": {
+            "processed": "<p>A fast-growing fintech company is seeking an experienced software engineer to join their platform team. You will architect and build scalable microservices that power their payments infrastructure.</p><h2>Responsibilities</h2><ul><li>Design and implement backend services using Go and Python</li><li>Lead technical design reviews and mentor junior engineers</li><li>Collaborate with product managers on feature planning</li><li>Ensure system reliability with comprehensive testing and monitoring</li></ul><h2>Requirements</h2><ul><li>5+ years of backend development experience</li><li>Strong experience with distributed systems and microservices</li><li>Proficiency in Go, Python, or Java</li><li>Experience with AWS or GCP cloud platforms</li><li>BS/MS in Computer Science or equivalent</li></ul><h2>Benefits</h2><p>Competitive salary, equity package, unlimited PTO, remote-friendly, health/dental/vision, 401(k) match, professional development budget.</p>",
+            "summary": "A fast-growing fintech company is seeking an experienced software engineer to join their platform team. You will architect and build scalable microservices that power their payments infrastructure.Res"
+          },
+          "companyName": "NovaPay Technologies",
+          "location": "San Francisco, CA (Hybrid)",
+          "employmentType": "Full-Time",
+          "salaryRange": "$160,000 - $200,000",
+          "jobIndustry": "Technology",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80",
+            "alt": "Software development workspace",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeJobOpening",
+          "id": "job-marketing-director",
+          "title": "Marketing Director",
+          "path": "/jobs/marketing-director",
+          "body": {
+            "processed": "<p>A healthcare services company is looking for a Marketing Director to lead brand strategy, digital marketing, and patient acquisition across their network of clinics.</p><h2>Responsibilities</h2><ul><li>Develop and execute integrated marketing strategies</li><li>Manage a team of 8 marketing professionals</li><li>Oversee digital advertising, SEO, and content marketing</li><li>Drive patient acquisition and retention campaigns</li><li>Report on marketing ROI to executive leadership</li></ul><h2>Requirements</h2><ul><li>8+ years of marketing experience, 3+ in a leadership role</li><li>Healthcare or medical services marketing experience preferred</li><li>Strong analytical skills with proficiency in marketing analytics tools</li><li>Proven track record of driving measurable growth</li></ul>",
+            "summary": "A healthcare services company is looking for a Marketing Director to lead brand strategy, digital marketing, and patient acquisition across their network of clinics.ResponsibilitiesDevelop and execute"
+          },
+          "companyName": "CarePoint Health",
+          "location": "Austin, TX",
+          "employmentType": "Full-Time",
+          "salaryRange": "$130,000 - $165,000",
+          "jobIndustry": "Healthcare",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+            "alt": "Marketing team meeting",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeJobOpening",
+          "id": "job-controller",
+          "title": "Financial Controller",
+          "path": "/jobs/financial-controller",
+          "body": {
+            "processed": "<p>A manufacturing company with $200M in annual revenue seeks a Financial Controller to oversee all accounting operations and financial reporting.</p><h2>Responsibilities</h2><ul><li>Manage the accounting team and all financial operations</li><li>Prepare monthly, quarterly, and annual financial statements</li><li>Oversee budgeting, forecasting, and variance analysis</li><li>Ensure compliance with GAAP and regulatory requirements</li><li>Drive process improvements and system implementations</li></ul><h2>Requirements</h2><ul><li>CPA required, MBA preferred</li><li>10+ years of progressive accounting experience</li><li>Manufacturing industry experience strongly preferred</li><li>Experience with ERP systems (SAP or Oracle)</li></ul>",
+            "summary": "A manufacturing company with $200M in annual revenue seeks a Financial Controller to oversee all accounting operations and financial reporting.ResponsibilitiesManage the accounting team and all financ"
+          },
+          "companyName": "Precision Manufacturing Corp.",
+          "location": "Milwaukee, WI",
+          "employmentType": "Full-Time",
+          "salaryRange": "$140,000 - $175,000",
+          "jobIndustry": "Manufacturing",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+            "alt": "Financial analysis workspace",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeJobOpening",
+          "id": "job-project-manager",
+          "title": "Construction Project Manager",
+          "path": "/jobs/construction-project-manager",
+          "body": {
+            "processed": "<p>A commercial construction firm is hiring a Project Manager to oversee large-scale commercial and institutional building projects valued at $10M-$50M.</p><h2>Responsibilities</h2><ul><li>Manage all phases of construction from pre-construction through closeout</li><li>Coordinate with architects, engineers, and subcontractors</li><li>Monitor project budgets, schedules, and quality standards</li><li>Ensure compliance with building codes and safety regulations</li></ul><h2>Requirements</h2><ul><li>7+ years of commercial construction management experience</li><li>PMP certification preferred</li><li>Proficiency in Procore, Bluebeam, and MS Project</li><li>Strong negotiation and stakeholder management skills</li></ul>",
+            "summary": "A commercial construction firm is hiring a Project Manager to oversee large-scale commercial and institutional building projects valued at $10M-$50M.ResponsibilitiesManage all phases of construction f"
+          },
+          "companyName": "Granite Builders LLC",
+          "location": "Denver, CO",
+          "employmentType": "Full-Time",
+          "salaryRange": "$110,000 - $145,000",
+          "jobIndustry": "Construction",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+            "alt": "Construction site",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

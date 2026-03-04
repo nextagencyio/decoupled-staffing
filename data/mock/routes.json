@@ -1,0 +1,690 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Vanguard Staffing Solutions Homepage",
+          "path": "/homepage",
+          "heroTitle": "The Right Talent, The Right Fit",
+          "heroSubtitle": "Vanguard Staffing Solutions",
+          "heroDescription": {
+            "processed": "<p>We connect exceptional professionals with leading companies. Whether you are looking to hire top talent or advance your career, Vanguard delivers results through personalized recruiting and deep industry expertise.</p>",
+            "summary": "We connect exceptional professionals with leading companies. Whether you are looking to hire top talent or advance your career, Vanguard delivers results through personalized recruiting and deep indus"
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-1",
+              "title": "",
+              "number": "12,000+",
+              "label": "Placements Made"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-2",
+              "title": "",
+              "number": "94%",
+              "label": "Retention Rate"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-3",
+              "title": "",
+              "number": "500+",
+              "label": "Client Companies"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-4",
+              "title": "",
+              "number": "48hrs",
+              "label": "Average Time to Shortlist"
+            }
+          ],
+          "featuredItemsTitle": "Featured Opportunities",
+          "ctaTitle": "Ready to Find Your Next Great Hire?",
+          "ctaDescription": {
+            "processed": "<p>Tell us about your staffing needs and our recruiters will deliver qualified candidates within 48 hours. No upfront fees - you only pay when we make a successful placement.</p>",
+            "summary": "Tell us about your staffing needs and our recruiters will deliver qualified candidates within 48 hours. No upfront fees - you only pay when we make a successful placement."
+          },
+          "ctaPrimary": "Hire Talent",
+          "ctaSecondary": "Find a Job"
+        }
+      }
+    }
+  },
+  "/jobs/senior-software-engineer": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeJobOpening",
+          "id": "job-software-engineer",
+          "title": "Senior Software Engineer",
+          "path": "/jobs/senior-software-engineer",
+          "body": {
+            "processed": "<p>A fast-growing fintech company is seeking an experienced software engineer to join their platform team. You will architect and build scalable microservices that power their payments infrastructure.</p><h2>Responsibilities</h2><ul><li>Design and implement backend services using Go and Python</li><li>Lead technical design reviews and mentor junior engineers</li><li>Collaborate with product managers on feature planning</li><li>Ensure system reliability with comprehensive testing and monitoring</li></ul><h2>Requirements</h2><ul><li>5+ years of backend development experience</li><li>Strong experience with distributed systems and microservices</li><li>Proficiency in Go, Python, or Java</li><li>Experience with AWS or GCP cloud platforms</li><li>BS/MS in Computer Science or equivalent</li></ul><h2>Benefits</h2><p>Competitive salary, equity package, unlimited PTO, remote-friendly, health/dental/vision, 401(k) match, professional development budget.</p>",
+            "summary": "A fast-growing fintech company is seeking an experienced software engineer to join their platform team. You will architect and build scalable microservices that power their payments infrastructure.Res"
+          },
+          "companyName": "NovaPay Technologies",
+          "location": "San Francisco, CA (Hybrid)",
+          "employmentType": "Full-Time",
+          "salaryRange": "$160,000 - $200,000",
+          "jobIndustry": "Technology",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80",
+            "alt": "Software development workspace",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/jobs/marketing-director": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeJobOpening",
+          "id": "job-marketing-director",
+          "title": "Marketing Director",
+          "path": "/jobs/marketing-director",
+          "body": {
+            "processed": "<p>A healthcare services company is looking for a Marketing Director to lead brand strategy, digital marketing, and patient acquisition across their network of clinics.</p><h2>Responsibilities</h2><ul><li>Develop and execute integrated marketing strategies</li><li>Manage a team of 8 marketing professionals</li><li>Oversee digital advertising, SEO, and content marketing</li><li>Drive patient acquisition and retention campaigns</li><li>Report on marketing ROI to executive leadership</li></ul><h2>Requirements</h2><ul><li>8+ years of marketing experience, 3+ in a leadership role</li><li>Healthcare or medical services marketing experience preferred</li><li>Strong analytical skills with proficiency in marketing analytics tools</li><li>Proven track record of driving measurable growth</li></ul>",
+            "summary": "A healthcare services company is looking for a Marketing Director to lead brand strategy, digital marketing, and patient acquisition across their network of clinics.ResponsibilitiesDevelop and execute"
+          },
+          "companyName": "CarePoint Health",
+          "location": "Austin, TX",
+          "employmentType": "Full-Time",
+          "salaryRange": "$130,000 - $165,000",
+          "jobIndustry": "Healthcare",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+            "alt": "Marketing team meeting",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/jobs/financial-controller": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeJobOpening",
+          "id": "job-controller",
+          "title": "Financial Controller",
+          "path": "/jobs/financial-controller",
+          "body": {
+            "processed": "<p>A manufacturing company with $200M in annual revenue seeks a Financial Controller to oversee all accounting operations and financial reporting.</p><h2>Responsibilities</h2><ul><li>Manage the accounting team and all financial operations</li><li>Prepare monthly, quarterly, and annual financial statements</li><li>Oversee budgeting, forecasting, and variance analysis</li><li>Ensure compliance with GAAP and regulatory requirements</li><li>Drive process improvements and system implementations</li></ul><h2>Requirements</h2><ul><li>CPA required, MBA preferred</li><li>10+ years of progressive accounting experience</li><li>Manufacturing industry experience strongly preferred</li><li>Experience with ERP systems (SAP or Oracle)</li></ul>",
+            "summary": "A manufacturing company with $200M in annual revenue seeks a Financial Controller to oversee all accounting operations and financial reporting.ResponsibilitiesManage the accounting team and all financ"
+          },
+          "companyName": "Precision Manufacturing Corp.",
+          "location": "Milwaukee, WI",
+          "employmentType": "Full-Time",
+          "salaryRange": "$140,000 - $175,000",
+          "jobIndustry": "Manufacturing",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+            "alt": "Financial analysis workspace",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/jobs/construction-project-manager": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeJobOpening",
+          "id": "job-project-manager",
+          "title": "Construction Project Manager",
+          "path": "/jobs/construction-project-manager",
+          "body": {
+            "processed": "<p>A commercial construction firm is hiring a Project Manager to oversee large-scale commercial and institutional building projects valued at $10M-$50M.</p><h2>Responsibilities</h2><ul><li>Manage all phases of construction from pre-construction through closeout</li><li>Coordinate with architects, engineers, and subcontractors</li><li>Monitor project budgets, schedules, and quality standards</li><li>Ensure compliance with building codes and safety regulations</li></ul><h2>Requirements</h2><ul><li>7+ years of commercial construction management experience</li><li>PMP certification preferred</li><li>Proficiency in Procore, Bluebeam, and MS Project</li><li>Strong negotiation and stakeholder management skills</li></ul>",
+            "summary": "A commercial construction firm is hiring a Project Manager to oversee large-scale commercial and institutional building projects valued at $10M-$50M.ResponsibilitiesManage all phases of construction f"
+          },
+          "companyName": "Granite Builders LLC",
+          "location": "Denver, CO",
+          "employmentType": "Full-Time",
+          "salaryRange": "$110,000 - $145,000",
+          "jobIndustry": "Construction",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+            "alt": "Construction site",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/industries/technology": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeIndustry",
+          "id": "industry-technology",
+          "title": "Technology",
+          "path": "/industries/technology",
+          "body": {
+            "processed": "<p>Our technology recruiting team places software engineers, data scientists, product managers, and IT leaders at companies ranging from startups to Fortune 500 enterprises.</p><h2>Roles We Fill</h2><ul><li>Software Engineering (Frontend, Backend, Full-Stack)</li><li>Data Science & Machine Learning</li><li>Product Management</li><li>DevOps & Cloud Infrastructure</li><li>Cybersecurity</li><li>CTO & VP Engineering leadership</li></ul><h2>Our Approach</h2><p>We maintain a curated network of pre-vetted tech professionals and use technical assessments to ensure candidates meet the skill requirements before presentation to clients.</p>",
+            "summary": "Our technology recruiting team places software engineers, data scientists, product managers, and IT leaders at companies ranging from startups to Fortune 500 enterprises.Roles We FillSoftware Engineer"
+          },
+          "openPositions": 45,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
+            "alt": "Technology professionals at work",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/industries/healthcare": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeIndustry",
+          "id": "industry-healthcare",
+          "title": "Healthcare",
+          "path": "/industries/healthcare",
+          "body": {
+            "processed": "<p>We partner with hospitals, clinics, and healthcare companies to place clinical, administrative, and executive talent. Our healthcare recruiters understand the regulatory landscape and credentialing requirements unique to this industry.</p><h2>Roles We Fill</h2><ul><li>Registered Nurses and Nurse Practitioners</li><li>Medical Directors and Department Heads</li><li>Healthcare Administrators</li><li>Medical Billing and Coding Specialists</li><li>Pharmaceutical Sales Representatives</li></ul><h2>Compliance</h2><p>All healthcare placements include thorough background checks, license verification, and credentialing support.</p>",
+            "summary": "We partner with hospitals, clinics, and healthcare companies to place clinical, administrative, and executive talent. Our healthcare recruiters understand the regulatory landscape and credentialing re"
+          },
+          "openPositions": 32,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+            "alt": "Healthcare professionals",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/industries/finance-accounting": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeIndustry",
+          "id": "industry-finance",
+          "title": "Finance & Accounting",
+          "path": "/industries/finance-accounting",
+          "body": {
+            "processed": "<p>From CFOs to staff accountants, our finance and accounting practice places professionals at all levels. We specialize in both permanent placements and interim assignments for companies in transition.</p><h2>Roles We Fill</h2><ul><li>Chief Financial Officers</li><li>Controllers and Assistant Controllers</li><li>Financial Analysts and FP&A Managers</li><li>Audit and Compliance Professionals</li><li>AP/AR Specialists and Staff Accountants</li></ul><h2>Interim Solutions</h2><p>Need immediate finance support? Our interim executives can step in within days to cover leaves, transitions, or special projects.</p>",
+            "summary": "From CFOs to staff accountants, our finance and accounting practice places professionals at all levels. We specialize in both permanent placements and interim assignments for companies in transition.R"
+          },
+          "openPositions": 28,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+            "alt": "Finance professionals reviewing reports",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/karen-mitchell": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-karen",
+          "title": "Karen Mitchell",
+          "path": "/team/karen-mitchell",
+          "body": {
+            "processed": "<p>Karen founded Vanguard Staffing Solutions with the belief that great recruiting starts with relationships. With 20 years of staffing industry experience, she has built a firm known for quality placements and exceptional client service.</p>",
+            "summary": "Karen founded Vanguard Staffing Solutions with the belief that great recruiting starts with relationships. With 20 years of staffing industry experience, she has built a firm known for quality placeme"
+          },
+          "position": "CEO & Founder",
+          "email": "karen@vanguardstaffing.com",
+          "phone": "(555) 789-0123",
+          "specialtyArea": "Executive Search",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+            "alt": "Karen Mitchell, CEO",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/ryan-oconnor": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-ryan",
+          "title": "Ryan O'Connor",
+          "path": "/team/ryan-oconnor",
+          "body": {
+            "processed": "<p>Ryan leads our technology recruiting division. A former software developer himself, he brings technical credibility to every search and understands the nuances of evaluating engineering talent. He has placed over 500 technology professionals in his career.</p>",
+            "summary": "Ryan leads our technology recruiting division. A former software developer himself, he brings technical credibility to every search and understands the nuances of evaluating engineering talent. He has"
+          },
+          "position": "VP, Technology Recruiting",
+          "email": "ryan@vanguardstaffing.com",
+          "phone": "(555) 789-0124",
+          "specialtyArea": "Technology & Engineering",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+            "alt": "Ryan O'Connor, VP Technology",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/diana-flores": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-diana",
+          "title": "Diana Flores",
+          "path": "/team/diana-flores",
+          "body": {
+            "processed": "<p>Diana manages our healthcare staffing practice, specializing in clinical and administrative placements. Her deep network in the healthcare community and understanding of credentialing requirements make her an invaluable partner for healthcare organizations.</p>",
+            "summary": "Diana manages our healthcare staffing practice, specializing in clinical and administrative placements. Her deep network in the healthcare community and understanding of credentialing requirements mak"
+          },
+          "position": "Director, Healthcare Staffing",
+          "email": "diana@vanguardstaffing.com",
+          "phone": "(555) 789-0125",
+          "specialtyArea": "Healthcare & Life Sciences",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+            "alt": "Diana Flores, Director",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/hiring-trends-2026": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-hiring-trends",
+          "title": "Top Hiring Trends to Watch in 2026",
+          "path": "/news/hiring-trends-2026",
+          "body": {
+            "processed": "<p>The employment landscape continues to evolve rapidly. Here are the key trends shaping hiring and workforce strategy in 2026.</p><h2>Key Trends</h2><ul><li><strong>AI-augmented recruiting</strong> - Companies are using AI to screen resumes and predict candidate success, but human judgment remains critical for cultural fit</li><li><strong>Skills-based hiring</strong> - More employers are dropping degree requirements in favor of demonstrated skills and certifications</li><li><strong>Return-to-office negotiations</strong> - Hybrid work policies are becoming a key differentiator in talent attraction</li><li><strong>Pay transparency</strong> - Salary range disclosure is now mandated in many states, changing compensation conversations</li></ul>",
+            "summary": "The employment landscape continues to evolve rapidly. Here are the key trends shaping hiring and workforce strategy in 2026.Key TrendsAI-augmented recruiting - Companies are using AI to screen resumes"
+          },
+          "newsCategory": "Industry Trends",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80",
+            "alt": "Team collaboration in modern office",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/resume-tips-that-get-interviews": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-resume-tips",
+          "title": "Resume Tips That Actually Get You Interviews",
+          "path": "/news/resume-tips-that-get-interviews",
+          "body": {
+            "processed": "<p>As recruiters who review thousands of resumes each month, here is what we know works - and what does not.</p><h2>What Gets Attention</h2><ul><li>Quantified achievements (\"Increased revenue by 35%\" vs. \"Managed sales\")</li><li>Clean, scannable formatting with clear section headers</li><li>A strong summary statement tailored to the target role</li><li>Relevant keywords that match the job description</li></ul><h2>Common Mistakes</h2><ul><li>Generic objective statements</li><li>Listing responsibilities instead of accomplishments</li><li>Including every job you have ever had</li><li>Typos and formatting inconsistencies</li></ul><p>Need help refining your resume? Our career advisors offer free resume reviews for all registered candidates.</p>",
+            "summary": "As recruiters who review thousands of resumes each month, here is what we know works - and what does not.What Gets AttentionQuantified achievements (\"Increased revenue by 35%\" vs. \"Managed sales\")Clea"
+          },
+          "newsCategory": "Career Advice",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=80",
+            "alt": "Person working on resume at desk",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/news/employee-retention-strategies": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeNews",
+          "id": "news-retention",
+          "title": "5 Employee Retention Strategies That Work",
+          "path": "/news/employee-retention-strategies",
+          "body": {
+            "processed": "<p>With the cost of replacing an employee averaging 1.5-2x their salary, retention is a strategic priority. Here are proven strategies from our client partners.</p><h2>Effective Strategies</h2><ul><li><strong>Competitive compensation reviews</strong> - Conduct market analysis every 6 months, not annually</li><li><strong>Career development paths</strong> - Employees stay when they see a clear future</li><li><strong>Manager training</strong> - People leave managers, not companies</li><li><strong>Flexible work arrangements</strong> - Trust employees with how and where they work</li><li><strong>Recognition programs</strong> - Regular, genuine recognition costs nothing but yields loyalty</li></ul>",
+            "summary": "With the cost of replacing an employee averaging 1.5-2x their salary, retention is a strategic priority. Here are proven strategies from our client partners.Effective StrategiesCompetitive compensatio"
+          },
+          "newsCategory": "HR Strategy",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+            "alt": "Team meeting discussing strategy",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "about-page",
+          "title": "About Vanguard Staffing Solutions",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Vanguard Staffing Solutions has been connecting great companies with exceptional talent since 2008. We specialize in professional staffing across technology, healthcare, finance, manufacturing, and construction industries.</p><h2>Our Difference</h2><p>Unlike high-volume staffing firms, we take a consultative approach. Every search begins with a deep understanding of your business, culture, and the specific skills needed for success in the role.</p><h2>Our Values</h2><ul><li><strong>Quality Over Quantity</strong> - We present only candidates we would hire ourselves</li><li><strong>Transparency</strong> - Honest communication about timelines, market conditions, and candidate fit</li><li><strong>Partnership</strong> - We invest in long-term client relationships, not one-off transactions</li><li><strong>Candidate Care</strong> - We treat every candidate with respect and provide coaching throughout the process</li></ul>",
+            "summary": "Vanguard Staffing Solutions has been connecting great companies with exceptional talent since 2008. We specialize in professional staffing across technology, healthcare, finance, manufacturing, and co"
+          }
+        }
+      }
+    }
+  },
+  "/contact": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "contact-page",
+          "title": "Contact Vanguard Staffing Solutions",
+          "path": "/contact",
+          "body": {
+            "processed": "<p>Whether you are looking to hire or looking for your next opportunity, we want to hear from you.</p><h2>For Employers</h2><p>Phone: (555) 789-0123<br/>Email: employers@vanguardstaffing.com</p><h2>For Job Seekers</h2><p>Phone: (555) 789-0130<br/>Email: careers@vanguardstaffing.com</p><h2>Office</h2><p>Vanguard Staffing Solutions<br/>200 Commerce Drive, Suite 400<br/>Atlanta, GA 30303</p><h2>Hours</h2><p>Monday - Friday: 8:00 AM - 6:00 PM<br/>Saturday: By Appointment</p>",
+            "summary": "Whether you are looking to hire or looking for your next opportunity, we want to hear from you.For EmployersPhone: (555) 789-0123Email: employers@vanguardstaffing.comFor Job SeekersPhone: (555) 789-01"
+          }
+        }
+      }
+    }
+  }
+}

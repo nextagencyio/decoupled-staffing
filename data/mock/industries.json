@@ -1,0 +1,120 @@
+{
+  "data": {
+    "nodeIndustries": {
+      "__typename": "NodeIndustryConnection",
+      "nodes": [
+        {
+          "__typename": "NodeIndustry",
+          "id": "industry-technology",
+          "title": "Technology",
+          "path": "/industries/technology",
+          "body": {
+            "processed": "<p>Our technology recruiting team places software engineers, data scientists, product managers, and IT leaders at companies ranging from startups to Fortune 500 enterprises.</p><h2>Roles We Fill</h2><ul><li>Software Engineering (Frontend, Backend, Full-Stack)</li><li>Data Science & Machine Learning</li><li>Product Management</li><li>DevOps & Cloud Infrastructure</li><li>Cybersecurity</li><li>CTO & VP Engineering leadership</li></ul><h2>Our Approach</h2><p>We maintain a curated network of pre-vetted tech professionals and use technical assessments to ensure candidates meet the skill requirements before presentation to clients.</p>",
+            "summary": "Our technology recruiting team places software engineers, data scientists, product managers, and IT leaders at companies ranging from startups to Fortune 500 enterprises.Roles We FillSoftware Engineer"
+          },
+          "openPositions": 45,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
+            "alt": "Technology professionals at work",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeIndustry",
+          "id": "industry-healthcare",
+          "title": "Healthcare",
+          "path": "/industries/healthcare",
+          "body": {
+            "processed": "<p>We partner with hospitals, clinics, and healthcare companies to place clinical, administrative, and executive talent. Our healthcare recruiters understand the regulatory landscape and credentialing requirements unique to this industry.</p><h2>Roles We Fill</h2><ul><li>Registered Nurses and Nurse Practitioners</li><li>Medical Directors and Department Heads</li><li>Healthcare Administrators</li><li>Medical Billing and Coding Specialists</li><li>Pharmaceutical Sales Representatives</li></ul><h2>Compliance</h2><p>All healthcare placements include thorough background checks, license verification, and credentialing support.</p>",
+            "summary": "We partner with hospitals, clinics, and healthcare companies to place clinical, administrative, and executive talent. Our healthcare recruiters understand the regulatory landscape and credentialing re"
+          },
+          "openPositions": 32,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+            "alt": "Healthcare professionals",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeIndustry",
+          "id": "industry-finance",
+          "title": "Finance & Accounting",
+          "path": "/industries/finance-accounting",
+          "body": {
+            "processed": "<p>From CFOs to staff accountants, our finance and accounting practice places professionals at all levels. We specialize in both permanent placements and interim assignments for companies in transition.</p><h2>Roles We Fill</h2><ul><li>Chief Financial Officers</li><li>Controllers and Assistant Controllers</li><li>Financial Analysts and FP&A Managers</li><li>Audit and Compliance Professionals</li><li>AP/AR Specialists and Staff Accountants</li></ul><h2>Interim Solutions</h2><p>Need immediate finance support? Our interim executives can step in within days to cover leaves, transitions, or special projects.</p>",
+            "summary": "From CFOs to staff accountants, our finance and accounting practice places professionals at all levels. We specialize in both permanent placements and interim assignments for companies in transition.R"
+          },
+          "openPositions": 28,
+          "image": {
+            "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+            "alt": "Finance professionals reviewing reports",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

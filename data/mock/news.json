@@ -1,0 +1,120 @@
+{
+  "data": {
+    "nodeNewsItems": {
+      "__typename": "NodeNewsConnection",
+      "nodes": [
+        {
+          "__typename": "NodeNews",
+          "id": "news-hiring-trends",
+          "title": "Top Hiring Trends to Watch in 2026",
+          "path": "/news/hiring-trends-2026",
+          "body": {
+            "processed": "<p>The employment landscape continues to evolve rapidly. Here are the key trends shaping hiring and workforce strategy in 2026.</p><h2>Key Trends</h2><ul><li><strong>AI-augmented recruiting</strong> - Companies are using AI to screen resumes and predict candidate success, but human judgment remains critical for cultural fit</li><li><strong>Skills-based hiring</strong> - More employers are dropping degree requirements in favor of demonstrated skills and certifications</li><li><strong>Return-to-office negotiations</strong> - Hybrid work policies are becoming a key differentiator in talent attraction</li><li><strong>Pay transparency</strong> - Salary range disclosure is now mandated in many states, changing compensation conversations</li></ul>",
+            "summary": "The employment landscape continues to evolve rapidly. Here are the key trends shaping hiring and workforce strategy in 2026.Key TrendsAI-augmented recruiting - Companies are using AI to screen resumes"
+          },
+          "newsCategory": "Industry Trends",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80",
+            "alt": "Team collaboration in modern office",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-resume-tips",
+          "title": "Resume Tips That Actually Get You Interviews",
+          "path": "/news/resume-tips-that-get-interviews",
+          "body": {
+            "processed": "<p>As recruiters who review thousands of resumes each month, here is what we know works - and what does not.</p><h2>What Gets Attention</h2><ul><li>Quantified achievements (\"Increased revenue by 35%\" vs. \"Managed sales\")</li><li>Clean, scannable formatting with clear section headers</li><li>A strong summary statement tailored to the target role</li><li>Relevant keywords that match the job description</li></ul><h2>Common Mistakes</h2><ul><li>Generic objective statements</li><li>Listing responsibilities instead of accomplishments</li><li>Including every job you have ever had</li><li>Typos and formatting inconsistencies</li></ul><p>Need help refining your resume? Our career advisors offer free resume reviews for all registered candidates.</p>",
+            "summary": "As recruiters who review thousands of resumes each month, here is what we know works - and what does not.What Gets AttentionQuantified achievements (\"Increased revenue by 35%\" vs. \"Managed sales\")Clea"
+          },
+          "newsCategory": "Career Advice",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=80",
+            "alt": "Person working on resume at desk",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeNews",
+          "id": "news-retention",
+          "title": "5 Employee Retention Strategies That Work",
+          "path": "/news/employee-retention-strategies",
+          "body": {
+            "processed": "<p>With the cost of replacing an employee averaging 1.5-2x their salary, retention is a strategic priority. Here are proven strategies from our client partners.</p><h2>Effective Strategies</h2><ul><li><strong>Competitive compensation reviews</strong> - Conduct market analysis every 6 months, not annually</li><li><strong>Career development paths</strong> - Employees stay when they see a clear future</li><li><strong>Manager training</strong> - People leave managers, not companies</li><li><strong>Flexible work arrangements</strong> - Trust employees with how and where they work</li><li><strong>Recognition programs</strong> - Regular, genuine recognition costs nothing but yields loyalty</li></ul>",
+            "summary": "With the cost of replacing an employee averaging 1.5-2x their salary, retention is a strategic priority. Here are proven strategies from our client partners.Effective StrategiesCompetitive compensatio"
+          },
+          "newsCategory": "HR Strategy",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+            "alt": "Team meeting discussing strategy",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

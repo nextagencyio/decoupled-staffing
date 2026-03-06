@@ -17,7 +17,7 @@ export default function StatsSection({ homepageContent }: StatsSectionProps) {
           {stats.map((stat: any, i: number) => (
             <div key={stat.id || i} className="px-8 py-4 md:py-0 text-center">
               <div className="text-3xl md:text-4xl font-display font-bold text-white">
-                {stat.value || stat.statValue || stat.number}
+                {stat.value || stat.number || stat.statValue || stat.number}
               </div>
               <div className="text-primary-200 mt-1 text-sm font-medium uppercase tracking-wide">
                 {stat.label || stat.statLabel || stat.title}

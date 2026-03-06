@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-1",
               "title": "",
-              "number": "12,000+",
+              "number": "12,000+", "value": "12,000+",
               "label": "Placements Made"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-2",
               "title": "",
-              "number": "94%",
+              "number": "94%", "value": "94%",
               "label": "Retention Rate"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-3",
               "title": "",
-              "number": "500+",
+              "number": "500+", "value": "500+",
               "label": "Client Companies"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-4",
               "title": "",
-              "number": "48hrs",
+              "number": "48hrs", "value": "48hrs",
               "label": "Average Time to Shortlist"
             }
           ],

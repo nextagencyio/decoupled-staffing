@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import TeamMemberCard from '../components/TeamMemberCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Our Team | Pinnacle Staffing Group',

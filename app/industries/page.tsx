@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import IndustryCard from '../components/IndustryCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Industries | Pinnacle Staffing Group',

@@ -1,6 +1,5 @@
+import { getClient } from '@/lib/drupal-client'
 import { Metadata } from 'next'
-import { headers } from 'next/headers'
-import { getServerApolloClient } from '@/lib/apollo-client'
 import { GET_JOB_OPENINGS } from '@/lib/queries'
 import { JobOpeningsData } from '@/lib/types'
 import Header from '../components/Header'
@@ -16,9 +15,8 @@ export const metadata: Metadata = {
 
 async function getData() {
   try {
-    const requestHeaders = await headers()
-    const apolloClient = getServerApolloClient(requestHeaders)
-    const { data } = await apolloClient.query<JobOpeningsData>(({
+    const client = getClient()
+    const { data } = await client.raw<JobOpeningsData>(({
       query: GET_JOB_OPENINGS,
       variables: { first: 50 },
       fetchPolicy: 'cache-first',

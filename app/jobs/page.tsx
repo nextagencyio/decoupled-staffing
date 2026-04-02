@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getData() {
   try {
     const client = getClient()
-    const { data } = await client.raw<JobOpeningsData>(({
+    const data = await client.raw<JobOpeningsData>(({
       query: GET_JOB_OPENINGS,
       variables: { first: 50 },
       fetchPolicy: 'cache-first',
@@ -59,7 +59,7 @@ export default async function JobsPage() {
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <JobOpeningCard key={item.id} item={item} />
               ))}
             </div>

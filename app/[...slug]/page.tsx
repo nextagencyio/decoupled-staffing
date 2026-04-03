@@ -2,6 +2,7 @@ import { getClient } from '@/lib/drupal-client'
 import Header from '../components/Header'
 import ErrorBoundary from '../components/ErrorBoundary'
 import HomepageRenderer from '../components/HomepageRenderer'
+import FeaturedJobs from '../components/FeaturedJobs'
 import ResponsiveImage from '../components/ResponsiveImage'
 import { Metadata } from 'next'
 
@@ -52,7 +53,11 @@ export default async function GenericPage({ params }: { params: Promise<{ slug: 
     }
 
     if (entity.__typename === 'NodeHomepage') {
-      return <HomepageRenderer homepageContent={entity} />
+      return (
+        <HomepageRenderer homepageContent={entity}>
+          <FeaturedJobs />
+        </HomepageRenderer>
+      )
     }
 
     const title = entity.title || 'Untitled'

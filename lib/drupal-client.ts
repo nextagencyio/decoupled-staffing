@@ -36,8 +36,18 @@ function createMockTypedClient(): TypedClient {
       }))
       return result?.data?.route?.entity || null
     },
-    async raw(query, variables) {
-      const result = handleMockQuery(JSON.stringify({ query: typeof query === 'string' ? query : '', variables })); return result?.data ?? result
+    async raw(queryOrOptions: any, variables?: any) {
+      let q: string
+      let v: any
+      if (typeof queryOrOptions === 'object' && queryOrOptions !== null && 'query' in queryOrOptions) {
+        q = queryOrOptions.query
+        v = queryOrOptions.variables
+      } else {
+        q = typeof queryOrOptions === 'string' ? queryOrOptions : ''
+        v = variables
+      }
+      const result = handleMockQuery(JSON.stringify({ query: q, variables: v }))
+      return result?.data ?? result
     },
   } as TypedClient
 
@@ -88,13 +98,53 @@ export function getClient(): TypedClient {
           query ($path: String!) {
             route(path: $path) {
               ... on RouteInternal {
-                entity { ... on NodePage { __typename id title path body { processed } } }
+                entity {
+                  ... on NodePage { __typename id title path body { processed } }
+                  ... on NodeHomepage {
+                    __typename id title path
+                    heroTitle heroSubtitle heroDescription { processed }
+                    statsItems { ... on ParagraphStatItem { id number label } }
+                    featuredItemsTitle
+                    ctaTitle ctaDescription { processed } ctaPrimary ctaSecondary
+                  }
+                  ... on NodeJobOpening {
+                    __typename id title path
+                    body { processed }
+                    companyName location employmentType salaryRange jobIndustry
+                    image { url alt width height }
+                  }
+                  ... on NodeIndustry {
+                    __typename id title path
+                    body { processed summary }
+                    openPositions
+                    image { url alt width height }
+                  }
+                  ... on NodeTeamMember {
+                    __typename id title path
+                    body { processed }
+                    position email phone specialtyArea
+                    photo { url alt width height }
+                  }
+                  ... on NodeNews {
+                    __typename id title path
+                    created { timestamp }
+                    body { processed summary }
+                    newsCategory
+                    image { url alt width height }
+                  }
+                }
               }
             }
           }
         `)
       },
-      async raw(query, variables) { return base.query(query, variables) },
+      async raw(queryOrOptions: any, variables?: any) {
+        if (typeof queryOrOptions === 'object' && queryOrOptions !== null) {
+          const { query, variables: vars } = queryOrOptions
+          return base.query(query, vars)
+        }
+        return base.query(queryOrOptions, variables)
+      },
     } as TypedClient
   }
 

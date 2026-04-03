@@ -6,16 +6,16 @@ import StatsSection from './StatsSection'
 import CTASection from './CTASection'
 import WhyChooseUs from './WhyChooseUs'
 import PhotoGallery from './PhotoGallery'
-import FeaturedJobs from './FeaturedJobs'
 import ErrorBoundary from './ErrorBoundary'
 import { DrupalHomepage } from '@/lib/types'
 import { Users } from 'lucide-react'
 
 interface HomepageRendererProps {
   homepageContent: DrupalHomepage | null | undefined
+  children?: React.ReactNode
 }
 
-export default function HomepageRenderer({ homepageContent }: HomepageRendererProps) {
+export default function HomepageRenderer({ homepageContent, children }: HomepageRendererProps) {
   return (
     <div className="min-h-screen bg-white">
       <Header />
@@ -28,9 +28,7 @@ export default function HomepageRenderer({ homepageContent }: HomepageRendererPr
         <StatsSection homepageContent={homepageContent} />
       </ErrorBoundary>
 
-      <ErrorBoundary>
-        <FeaturedJobs />
-      </ErrorBoundary>
+      {children}
 
       <ErrorBoundary>
         <WhyChooseUs />

@@ -1,31 +1,20 @@
-'use client'
-
-import { useQuery } from '@apollo/client'
+import { getClient } from '@/lib/drupal-client'
 import { GET_FEATURED_JOB_OPENINGS } from '@/lib/queries'
 import { DrupalJobOpening } from '@/lib/types'
 import Link from 'next/link'
 import ResponsiveImage from './ResponsiveImage'
 import { ArrowRight } from 'lucide-react'
 
-export default function FeaturedJobs() {
-  const { data, loading } = useQuery(GET_FEATURED_JOB_OPENINGS)
-  const items: DrupalJobOpening[] = data?.nodeJobOpenings?.nodes || []
-
-  if (loading) {
-    return (
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="font-display text-3xl md:text-4xl font-bold text-primary-900 mb-4">Featured Jobs</h2>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {[1, 2].map((i) => (
-              <div key={i} className="animate-pulse flex rounded-xl overflow-hidden bg-gray-100 h-48" />
-            ))}
-          </div>
-        </div>
-      </section>
-    )
+export default async function FeaturedJobs() {
+  let items: DrupalJobOpening[] = []
+  try {
+    const client = getClient()
+    const data = await client.raw<{ nodeJobOpenings: { nodes: DrupalJobOpening[] } }>({
+      query: GET_FEATURED_JOB_OPENINGS,
+    })
+    items = data?.nodeJobOpenings?.nodes || []
+  } catch (error) {
+    console.error('Error fetching featured jobs:', error)
   }
 
   if (items.length === 0) return null
